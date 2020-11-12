@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import CountriesTable from "./components/CountriesTable/component";
+import AppProvider from "./context/AppProvider";
+import Header from "./components/Header/component";
+import { Col, Row, Space, Layout } from "antd";
 
-function App() {
-  return (
+const App = () => (
+  <AppProvider>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Space size="large" direction="vertical">
+        <Header />
+        <Row>
+          <Col span={5}>sssss</Col>
+          <Col span={18}>
+            <CountriesTable />
+          </Col>
+        </Row>
+        <Layout.Footer style={{ textAlign: "center" }}>
+          Powered by ReactJS and Ant Design
+        </Layout.Footer>
+      </Space>
     </div>
-  );
-}
+  </AppProvider>
+);
 
 export default App;

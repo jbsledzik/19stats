@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="812ad9fc-7357-496b-a535-46944f37fa8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/api/endpoints.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/requests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auxiliaries/numbers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CountriesTable/columns.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CountriesTable/component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CountriesTable/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CountriesTable/mapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/AppProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/initialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/context.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jFNTOZBnIOiaiWrqdFgT8o10I6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\jsledzik\Desktop\JSLEDZIK\Personal Projects\19stats\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\jsledzik\Desktop\JSLEDZIK\Personal Projects\19stats\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jsledzik\Desktop\JSLEDZIK\react\19stats\src\components\CasesTable" />
+      <recent name="C:\Users\jsledzik\Desktop\JSLEDZIK\react\19stats\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="812ad9fc-7357-496b-a535-46944f37fa8b" name="Default Changelist" comment="" />
+      <created>1603395888021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603395888021</updated>
+      <workItem from="1603395889587" duration="726000" />
+      <workItem from="1603396623518" duration="99000" />
+      <workItem from="1603396729456" duration="1951000" />
+      <workItem from="1603448785526" duration="17562000" />
+      <workItem from="1603542343270" duration="2456000" />
+      <workItem from="1603752307503" duration="3255000" />
+      <workItem from="1604155581594" duration="1091000" />
+      <workItem from="1604158244068" duration="1581000" />
+      <workItem from="1604177048686" duration="996000" />
+      <workItem from="1604341353989" duration="2598000" />
+      <workItem from="1604432947901" duration="676000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
