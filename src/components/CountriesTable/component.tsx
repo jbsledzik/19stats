@@ -6,7 +6,7 @@ import mapCountries from "./mapper";
 import AppContext from "../../context/index";
 import { getCasesForAllCountries } from "../../api/requests";
 import config from "./config";
-import classes from './styles';
+import classes from './styles/index';
 
 const CountriesTable = () => {
   const [page, setPage] = useState<number>(config.page);

@@ -29,6 +29,9 @@ const columns: ColumnType<object>[] = [
     title: "New cases today",
     dataIndex: "newCasesToday",
     key: "newCasesToday",
+    sortDirections: ["ascend", "descend", "ascend"],
+    sorter: ((a: { todayCases: number }, b: { todayCases: number }) =>
+      a.todayCases - b.todayCases) as CompareFn<object>,
     render: text => ({
       props: {
         className: classes.newCasesTodayCell
