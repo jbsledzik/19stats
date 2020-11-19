@@ -3,10 +3,10 @@ import { Table } from "antd";
 
 import columns from "./columns";
 import mapCountries from "./mapper";
-import AppContext from "../../context/index";
-import { getCasesForAllCountries } from "../../api/requests";
+import AppContext from "context/index";
+import { getCasesForAllCountries } from "api/requests";
 import config from "./config";
-import classes from './styles/index';
+import classes from "./styles/index";
 
 const CountriesTable = () => {
   const [page, setPage] = useState<number>(config.page);

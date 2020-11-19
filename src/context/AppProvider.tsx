@@ -3,7 +3,7 @@ import React, { useReducer } from "react";
 import AppContext from "./index";
 import reducer from "./reducer";
 import initialState from "./initialState";
-import { IProviderProps } from "../types/context";
+import { IProviderProps } from "types/context";
 
 const AppProvider = (props: IProviderProps) => {
   const [state, dispatch] = useReducer(reducer, initialState);

@@ -1,4 +1,5 @@
-import { ICountry } from "../../types/api";
+import { ICountry } from "types/api";
+
 import { numberWithCommas } from "./helpers";
 
 const mapCountries = (data: ICountry[]) =>

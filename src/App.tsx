@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import CountriesTable from "./components/CountriesTable/component";
-import AppProvider from "./context/AppProvider";
-import Header from "./components/Header/component";
+import CountriesTable from "components/CountriesTable/component";
+import AppProvider from "context/AppProvider";
+import Header from "components/Header/component";
 import { Col, Row, Space, Layout } from "antd";
 
 const App = () => (

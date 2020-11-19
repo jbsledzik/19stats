@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-import { IContextProps } from "../types/context";
+import { IContextProps } from "types/context";
 
 const AppContext = createContext({} as IContextProps);
 

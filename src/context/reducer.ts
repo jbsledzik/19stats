@@ -1,5 +1,5 @@
-import { IAction, IState } from "../types/context";
-import { ICountry } from "../types/api";
+import { IAction, IState } from "types/context";
+import { ICountry } from "types/api";
 
 const reducer = (state: IState, action: IAction): IState => {
   switch (action.type) {
