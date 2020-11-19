@@ -1,7 +1,8 @@
 import { ColumnType } from "antd/lib/table";
 import { CompareFn } from "antd/lib/table/interface";
 
-import classes from './styles';
+import classes from "./styles";
+import { checkIfAnyCases } from "./helpers";
 
 const columns: ColumnType<object>[] = [
   {
@@ -18,12 +19,12 @@ const columns: ColumnType<object>[] = [
     sorter: ((a: { cases: number }, b: { cases: number }) =>
       a.cases - b.cases) as CompareFn<object>,
     defaultSortOrder: "descend",
-    render: text => ({
+    render: (text) => ({
       props: {
-        className: classes.allCasesCell
+        className: classes.allCasesCell,
       },
-      children: text
-    })
+      children: text,
+    }),
   },
   {
     title: "New cases today",
@@ -32,12 +33,12 @@ const columns: ColumnType<object>[] = [
     sortDirections: ["ascend", "descend", "ascend"],
     sorter: ((a: { todayCases: number }, b: { todayCases: number }) =>
       a.todayCases - b.todayCases) as CompareFn<object>,
-    render: text => ({
+    render: (text) => ({
       props: {
-        className: classes.newCasesTodayCell
+        className: checkIfAnyCases(text, classes.newCasesTodayCell),
       },
-      children: '+' + text
-    })
+      children: checkIfAnyCases(text, "+" + text),
+    }),
   },
   {
     title: "All deaths",
@@ -48,12 +49,12 @@ const columns: ColumnType<object>[] = [
     title: "Today deaths",
     dataIndex: "todayDeaths",
     key: "todayDeaths",
-    render: text => ({
+    render: (text) => ({
       props: {
-        className: classes.todayDeathsCell
+        className: checkIfAnyCases(text, classes.todayDeathsCell),
       },
-      children: '+' + text
-    })
+      children: checkIfAnyCases(text, "+" + text),
+    }),
   },
   {
     title: "Total recovered",
